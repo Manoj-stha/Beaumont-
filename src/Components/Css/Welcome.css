@@ -1,0 +1,30 @@
+#welcome{
+  background-color: rgb(240, 240, 240);
+}
+
+#header {
+    font-size: 45px;
+    font-family: 'Playfair Display', serif; /* Ensure this matches your chosen font */
+    background: linear-gradient(90deg, rgba(0,36,3,1) 0%, rgba(5,205,29,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  
+  #sub-header {
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 18px;
+    color: rgb(51, 51, 51);
+  }
+  #desc{
+    padding-top: 10px;
+  }
+  span{
+    vertical-align: super;
+    font-size: smaller;
+  }
+  #icons p{
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,29 @@
+#card{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: height 0.4s ease-in-out;
+    overflow: hidden;
+}
+#card:hover{
+    height: 31rem;
+}
+#label{
+    font-weight: 600;
+    
+}
+#about p{
+    /* opacity: 0; */
+    /* transform: translateY(-150px); */
+    visibility: hidden;
+    transition: 0.3s all;
+    /* background-color: red; */
+    
+}
+#card:hover #about p{
+    /* opacity: 1; */
+    visibility: visible;
+    /* transform: translateY(0); */
+}
+#cover img{
+    object-fit: cover;
+}
