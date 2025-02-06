@@ -2,11 +2,12 @@ import React from 'react';
 import { createPortal } from 'react-dom';
 import cross from '../../assets/form/cross.png';
 
+
 const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;
 
   return createPortal(
-    <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/50 backdrop-blur">
+    <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/50 backdrop-blur ">
       {/* Modal Container */}
       <div
         className="w-[40rem]  rounded-xl shadow-md "
