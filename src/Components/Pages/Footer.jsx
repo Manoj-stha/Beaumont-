@@ -10,63 +10,58 @@ import { FaGlobeAmericas, FaPhoneSquareAlt } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className=" flex">
-      <div className="font-montserrat px-[10rem] pt-[2rem] flex flex-col justify-center-center">
+    <div className=" flex justify-around">
+      <div className="font-montserrat px-[10rem] pt-[2rem] flex flex-col justify-center-center ">
         <h1 className="text-[25px] ">Beaumont Consultancy</h1>
         <p>Itahari, Sunsari</p>
         <div className="flex flex-col">
-            <div className="flex py-2 items-center gap-1 text-black ">
-              <FaGlobeAmericas />
-              <h1>Beaumont.com.np</h1>
-            </div>
-            <div className="flex py-2 items-center gap-1 text-black ">
-              <FaPhoneSquareAlt />
-              <h1>+977 985-2054171</h1>
-            </div>
+          <div className="flex py-2 items-center gap-1 text-black ">
+            <FaGlobeAmericas />
+            <h1>Beaumont.com.np</h1>
           </div>
+          <div className="flex py-2 items-center gap-1 text-black ">
+            <FaPhoneSquareAlt />
+            <h1>+977 985-2054171</h1>
+          </div>
+        </div>
       </div>
 
-      <div>
+      <div className=" flex justify-center items-center w-">
         <ul className="flex flex-col ">
           <li className="flex">
             <div className="flex items-center">
-
-          <MdKeyboardArrowRight/>
+              <MdKeyboardArrowRight />
             </div>
             Home
           </li>
           <li className="flex">
             <div className="flex items-center">
-
-          <MdKeyboardArrowRight/>
+              <MdKeyboardArrowRight />
             </div>
             About Us
           </li>
           <li className="flex">
             <div className="flex items-center">
-
-          <MdKeyboardArrowRight/>
+              <MdKeyboardArrowRight />
             </div>
             Services
           </li>
           <li className="flex">
             <div className="flex items-center">
-
-          <MdKeyboardArrowRight/>
+              <MdKeyboardArrowRight />
             </div>
             Terms of service
           </li>
         </ul>
       </div>
 
-      <div>
+      <div className="">
         <h1 className="text-black text-[36px] font-poppins pb-5 text-center">
           Contact Us
         </h1>
         <div className="flex">
-         
           <div className="flex flex-col items-center ">
-            <div className="grid grid-cols-2 gap-3  pr-[50px] grid-rows-2 ">
+            <div className="grid grid-cols-3 gap-3  pr-[50px] grid-rows-2 ">
               <div>
                 <img
                   src={facebook}

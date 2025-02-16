@@ -35,6 +35,7 @@ const Home = () => {
       <Welcome/>
       <Destination/>
       <Services/>
+      
       <Footer/>
 
       <Topbar/>
